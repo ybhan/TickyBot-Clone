@@ -1,16 +1,13 @@
-html, body{
+html, body {
   width: 100%;
   height: 100%;
   margin: 0px;
   padding: 0px;
-  overflow-x: hidden; 
-}
-
-html {
+  overflow-x: hidden;
   scroll-behavior: smooth;
 }
 
-body{
+body {
   font-family: Signika,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
   font-weight: 300;
   line-height: 1.5;
@@ -20,14 +17,14 @@ body{
   padding: 0px auto;
 }
 
-.container{
+.container {
   font-size: 1.25rem;
   width: 100%;
   margin: 0 auto;
   text-align: center;
 }
 
-p{
+p {
   margin: 0 auto;
   padding: 0 auto;
   font-size: 1.25rem;
@@ -35,16 +32,16 @@ p{
   line-height: 1.5;
 }
 
-ul{
+ul {
   margin-top: 0;
   margin-bottom: 1rem;
 }
 
-strong{
+strong {
   font-weight: 700;
 }
 
-h3{
+h3 {
   flex-basis: 100%;
   font-size: 2.5rem;
   font-weight: 300;
@@ -55,7 +52,7 @@ h3{
   margin-bottom: 2rem;
 }
 
-h3::after{
+h3::after {
   background-color: #55c0ec;
   bottom: 0;
   content: "";
@@ -67,39 +64,39 @@ h3::after{
   width: 160px
 }
 
-code{
+code {
   background-color: #EDEDED;
   color: #DC143C;
 
 }
 
-img{
+img {
   border-style: none;
 }
 
-section{
+section {
   display: block;
 }
 
-div{
+div {
   display: block;
 }
 
-nav{
+nav {
   display: block;
 }
 
 
 
 /*header*/
-.site_header{
+.site_header {
   background-color: #40596B;
-  padding-top: 10px;
+  padding-top: 15px;
   height: 50px;
   letter-spacing: 2px;
 }
 
-header a{
+header a {
   color: #FFD05A;
   text-decoration: none;
   font-weight: 300;
@@ -107,19 +104,19 @@ header a{
   padding: auto;
 }
 
-header li{
+header li {
   display: inline;
   padding: 0.3em;
 }
 
-header nav{
+header nav {
   text-align: center;
   font-size: 2rem;
   letter-spacing: 1px;
 }
 
-header a:hover{
-color: #fff;
+header a:hover {
+  color: #fff;
 }
 
 
@@ -127,13 +124,12 @@ color: #fff;
 /*main*/
 
 /*home*/
-#home{
+#home {
   background: #55C0EC;
-  
   width: 100%;
 }
 
-#home .home_wrap{
+#home .home_wrap {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 0.5em;
@@ -144,7 +140,7 @@ color: #fff;
   padding-right: 2em;
 }
 
-#home .home_wrap h1{
+#home .home_wrap h1 {
   display: block;
   font-size: 4.5rem;
   font-weight: 100;
@@ -156,7 +152,7 @@ color: #fff;
   text-align: center;
 }
 
-#home .home_wrap p{
+#home .home_wrap p {
   color: #FFFFFF;
   font-size: 1.6rem;
   letter-spacing: 0px;
@@ -168,7 +164,7 @@ color: #fff;
   text-align: center;
 }
 
-#home .home_wrap button{
+#home .home_wrap button {
   background-color:#fff;
   border: 2px solid #fff;
   border-radius: 5px;
@@ -176,16 +172,16 @@ color: #fff;
   color: rgba(0,0,0,0.7);
   padding: 3px 48px 18px 48px;
   font-size: 25px;
-  transition: transform 0.4s;
+  transition: transform 0.3s;
   transition-delay: 0.4s;
 }
 
-#home .home_wrap button a{
+#home .home_wrap button a {
   color: #454849;
   text-decoration: none;
 }
 
-#home .home_wrap button img{
+#home .home_wrap button img {
   width: 40px;
   margin-right: 15px;
   transform: translateY(10px);
@@ -197,22 +193,22 @@ color: #fff;
   transform: scale(0.98)
 }
 
-#home .home_wrap button:hover img{
+#home .home_wrap button:hover img {
   transform: translateY(10px) rotate(18deg) scale(1.5);
 }
 
-#home .tickybot_svg{
+#home .tickybot_svg {
   width: 80%;
   padding: 0px 0px 0px 30px;
 }
 
 
 /*about*/
-#about{
+#about {
   background: #FAFAFA;
 }
 
-#about .wrap{
+#about .wrap {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 1em;
@@ -225,7 +221,7 @@ color: #fff;
   justify-content: space-around;
 }
 
-#about .wrap p{
+#about .wrap p {
   display: block;
   margin-block-start: 1rem;
   margin-block-end: 1rem;
@@ -235,7 +231,7 @@ color: #fff;
 }
 
 
-#about .full{
+#about .full {
   flex-basis: 1fr;
   display: grid;
   grid-template-columns: 100%;
@@ -250,13 +246,13 @@ color: #fff;
 
 /*features*/
 
-#features{
+#features {
   padding: 20px 20px 50px 20px;
   background-color: #90ddaa;
   color: rgba(0,0,0,0.75);
 }
 
-#features .feature_wrap{
+#features .feature_wrap {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 0.1em;
@@ -264,7 +260,7 @@ color: #fff;
   margin: 0 auto;
 }
 
-#features .feature_box{
+#features .feature_box {
   align-items: center;
   align-self: stretch;
   background-color: #40596B;
@@ -277,36 +273,36 @@ color: #fff;
 }
 
 
-#features .site_image{
+#features .site_image {
   margin: 4rem 0;
   width: 224px;
   padding: 0 0 0 60px;
 }
 
-#features .feature_description{
+#features .feature_description {
   background-color: #FAFAFA;
   padding: 0.5em;
 }
 
-#features .feature_description p{
+#features .feature_description p {
   width: 90%;
   margin: 0 auto;
 }
 
 /*today*/
-#today{
+#today {
   background-color: #FAFAFA;
   padding: 1px 0px 10px 0px;
 }
 
-#today p{
+#today p {
   text-align: center;
   width: 50%;
   margin: 0 auto;
   padding: 20px 0px 50px 0px;
 }
 
-#today .full_page button{
+#today .full_page button {
   cursor: pointer;
   font-size: 140%;
   line-height: 1;
@@ -322,37 +318,37 @@ color: #fff;
   transition: background-color 0.4s, transform 0.4s;
 }
 
-#today .full_page button img{
+#today .full_page button img {
   width: 40px;
   margin-right: 15px;
   transform: translateY(10px);
   transition: transform 0.4s;
 }
 
-#today .full_page button a{
+#today .full_page button a {
   color: white;
   text-decoration: none;
 }
 
-#today .full_page button:hover{
+#today .full_page button:hover {
   background-color: rgba(0,0,0,.7);
   transform: scale(0.98);
 }
 
-#today .full_page button:hover img{
+#today .full_page button:hover img {
   transform: translateY(10px) rotate(18deg) scale(1.5);
 }
 
 
 /*footer*/
-.footer{
+.footer {
   background-color: #40596B;
   color: #CFCCC5;
   padding-top: 16px;
   padding-bottom: 16px;
 }
 
-.footer p{
+.footer p {
   font-size: 16px;
   text-align: center;
   line-height: 1.5;
@@ -361,16 +357,16 @@ color: #fff;
   margin-bottom: 4px;
 }
 
-.footer a{
+.footer a {
   color: #CFCCC5;
 }
 
-.footer button{
+.footer button {
   position: fixed;
   right: 16px;
 }
 
-.back-to-top{
+.back-to-top {
   background-color: #FFD05A;
   border: 0;
   border-radius: 4px;
@@ -379,6 +375,6 @@ color: #fff;
   cursor: pointer;
 }
 
-.back-to-top img{
+.back-to-top img {
   width: 35px;
 }
