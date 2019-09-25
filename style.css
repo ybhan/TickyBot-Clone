@@ -86,13 +86,11 @@ nav {
   display: block;
 }
 
-
-
-/*header*/
+/* header */
 .site_header {
   background-color: #40596B;
   padding-top: 15px;
-  height: 50px;
+  height: 45px;
   letter-spacing: 2px;
 }
 
@@ -119,11 +117,9 @@ header a:hover {
   color: #fff;
 }
 
+/* main */
 
-
-/*main*/
-
-/*home*/
+/* home */
 #home {
   background: #55C0EC;
   width: 100%;
@@ -172,7 +168,7 @@ header a:hover {
   color: rgba(0,0,0,0.7);
   padding: 3px 48px 18px 48px;
   font-size: 25px;
-  transition: transform 0.3s;
+  transition: transform 0.4s;
   transition-delay: 0.4s;
 }
 
@@ -202,8 +198,7 @@ header a:hover {
   padding: 0px 0px 0px 30px;
 }
 
-
-/*about*/
+/* about */
 #about {
   background: #FAFAFA;
 }
@@ -244,8 +239,7 @@ header a:hover {
   text-align: left;
 }
 
-/*features*/
-
+/* features */
 #features {
   padding: 20px 20px 50px 20px;
   background-color: #90ddaa;
@@ -272,7 +266,6 @@ header a:hover {
   width: 90%;
 }
 
-
 #features .site_image {
   margin: 4rem 0;
   width: 224px;
@@ -289,7 +282,7 @@ header a:hover {
   margin: 0 auto;
 }
 
-/*today*/
+/* today */
 #today {
   background-color: #FAFAFA;
   padding: 1px 0px 10px 0px;
@@ -339,8 +332,7 @@ header a:hover {
   transform: translateY(10px) rotate(18deg) scale(1.5);
 }
 
-
-/*footer*/
+/* footer */
 .footer {
   background-color: #40596B;
   color: #CFCCC5;
@@ -349,7 +341,8 @@ header a:hover {
 }
 
 .footer p {
-  font-size: 16px;
+  font-size: 13px;
+  color: hsla(0,0%,100%,.75);
   text-align: center;
   line-height: 1.5;
   letter-spacing: 0px;
@@ -358,23 +351,27 @@ header a:hover {
 }
 
 .footer a {
-  color: #CFCCC5;
+  color: hsla(0,0%,100%,.75);
 }
 
 .footer button {
   position: fixed;
   right: 16px;
-}
-
-.back-to-top {
   background-color: #FFD05A;
   border: 0;
   border-radius: 4px;
   bottom: 16px;
-  padding: 8px 8px 0;
+  padding: 8px 8px 5px 8px;
   cursor: pointer;
+  transition: 0.4s;
+  transition-delay: 0.4s;
+  /* opacity: 0;  transparent upon start */
 }
 
-.back-to-top img {
-  width: 35px;
+.footer button img {
+  width: 32px;
+}
+
+.footer button:hover {
+  transform: scale(0.96);
 }
